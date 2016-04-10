@@ -1,0 +1,6 @@
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\CBTActivityMonitor\bin\Debug\ManagedWinapiNativeHelper.dll
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\CBTActivityMonitor\bin\Debug\CBTActivityMonitor.dll
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\CBTActivityMonitor\bin\Debug\CBTActivityMonitor.pdb
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\CBTActivityMonitor\obj\Debug\ResolveAssemblyReference.cache
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\CBTActivityMonitor\obj\Debug\CBTActivityMonitor.dll
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\CBTActivityMonitor\obj\Debug\CBTActivityMonitor.pdb

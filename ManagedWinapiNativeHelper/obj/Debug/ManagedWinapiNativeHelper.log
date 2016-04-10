@@ -1,0 +1,28 @@
+﻿Построение начато 4/8/2016 8:59:44 PM.
+     1>Проект "H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\ManagedWinapiNativeHelper\ManagedWinapiNativeHelper.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "obj\Debug\ManagedWinapiNativeHelper.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "obj\Debug\ManagedWinapiNativeHelper.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MANAGEDWINAPINATIVEHELPER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /TP /analyze- /errorReport:prompt ManagedWinapiNativeHelper.cpp /clr:nostdlib 
+         ManagedWinapiNativeHelper.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MANAGEDWINAPINATIVEHELPER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "D:\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Debug\ManagedWinapiNativeHelper.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib /MANIFEST /ManifestFile:"obj\Debug\ManagedWinapiNativeHelper.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\ManagedWinapiNativeHelper\bin\Debug\ManagedWinapiNativeHelper.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL obj\Debug\ManagedWinapiNativeHelper.obj
+         "obj\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Создается библиотека bin\Debug\ManagedWinapiNativeHelper.lib и объект bin\Debug\ManagedWinapiNativeHelper.exp
+         ManagedWinapiNativeHelper.vcxproj -> H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\ManagedWinapiNativeHelper\bin\Debug\ManagedWinapiNativeHelper.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\Debug\ManagedWinapiNativeHelper.dll;#2" /manifest obj\Debug\ManagedWinapiNativeHelper.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "obj\Debug\ManagedWinapiNativeHelper.unsuccessfulbuild" удаляется.
+         Обращение к "obj\Debug\ManagedWinapiNativeHelper.lastbuildstate".
+     1>Построение проекта "H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\ManagedWinapiNativeHelper\ManagedWinapiNativeHelper.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.51

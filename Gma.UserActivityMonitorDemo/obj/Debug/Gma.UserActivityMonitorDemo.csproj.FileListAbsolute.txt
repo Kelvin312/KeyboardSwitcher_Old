@@ -1,0 +1,26 @@
+C:\Documents and Settings\Admin\Рабочий стол\Проекты от студии\GlobalHook\Gma.UserActivityMonitorDemo\bin\Debug\Gma.UserActivityMonitorDemo.exe
+C:\Documents and Settings\Admin\Рабочий стол\Проекты от студии\GlobalHook\Gma.UserActivityMonitorDemo\bin\Debug\Gma.UserActivityMonitorDemo.pdb
+C:\Documents and Settings\Admin\Рабочий стол\Проекты от студии\GlobalHook\Gma.UserActivityMonitorDemo\bin\Debug\Gma.UserActivityMonitor.dll
+C:\Documents and Settings\Admin\Рабочий стол\Проекты от студии\GlobalHook\Gma.UserActivityMonitorDemo\bin\Debug\Gma.UserActivityMonitor.pdb
+C:\Documents and Settings\Admin\Рабочий стол\Проекты от студии\GlobalHook\Gma.UserActivityMonitorDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Рабочий стол\Проекты от студии\GlobalHook\Gma.UserActivityMonitorDemo\obj\Debug\Gma.UserActivityMonitorDemo.TestFormStatic.resources
+C:\Documents and Settings\Admin\Рабочий стол\Проекты от студии\GlobalHook\Gma.UserActivityMonitorDemo\obj\Debug\Gma.UserActivityMonitorDemo.TestFormComponent.resources
+C:\Documents and Settings\Admin\Рабочий стол\Проекты от студии\GlobalHook\Gma.UserActivityMonitorDemo\obj\Debug\Gma.UserActivityMonitorDemo.Properties.Resources.resources
+C:\Documents and Settings\Admin\Рабочий стол\Проекты от студии\GlobalHook\Gma.UserActivityMonitorDemo\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Admin\Рабочий стол\Проекты от студии\GlobalHook\Gma.UserActivityMonitorDemo\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Admin\Рабочий стол\Проекты от студии\GlobalHook\Gma.UserActivityMonitorDemo\obj\Debug\Gma.UserActivityMonitorDemo.exe
+C:\Documents and Settings\Admin\Рабочий стол\Проекты от студии\GlobalHook\Gma.UserActivityMonitorDemo\obj\Debug\Gma.UserActivityMonitorDemo.pdb
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\bin\Debug\Gma.UserActivityMonitorDemo.exe
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\bin\Debug\Gma.UserActivityMonitorDemo.pdb
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\bin\Debug\Gma.UserActivityMonitor.dll
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\bin\Debug\Gma.UserActivityMonitor.pdb
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\obj\Debug\ResolveAssemblyReference.cache
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\obj\Debug\Gma.UserActivityMonitorDemo.Properties.Resources.resources
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\obj\Debug\Gma.UserActivityMonitorDemo.exe
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\obj\Debug\Gma.UserActivityMonitorDemo.pdb
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\bin\Debug\Gma.UserActivityMonitorDemo.exe.config
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\obj\Debug\GenerateResource.read.1.tlog
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\obj\Debug\GenerateResource.write.1.tlog
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\obj\Debug\Gma.UserActivityMonitorDemo.TestFormStatic.resources
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\bin\Debug\ManagedWinapiNativeHelper.dll
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitorDemo\bin\Debug\ManagedWinapiNativeHelper.pdb

@@ -1,0 +1,28 @@
+﻿Построение начато 4/8/2016 7:40:12 PM.
+     1>Проект "H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\WinKeyDisabler\WinKeyDisabler.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "obj\Debug\WinKeyKiller.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "obj\Debug\WinKeyKiller.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /TP /analyze- /errorReport:prompt WinKeyKiller.cpp /clr:nostdlib 
+         WinKeyKiller.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "D:\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Debug\WinKeyKiller.dll" /INCREMENTAL /NOLOGO kernel32.lib User32.lib /MANIFEST /ManifestFile:"obj\Debug\WinKeyKiller.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\WinKeyDisabler\bin\Debug\WinKeyKiller.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL obj\Debug\WinKeyKiller.obj
+         "obj\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Создается библиотека bin\Debug\WinKeyKiller.lib и объект bin\Debug\WinKeyKiller.exp
+         WinKeyDisabler.vcxproj -> H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\WinKeyDisabler\bin\Debug\WinKeyKiller.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\Debug\WinKeyKiller.dll;#2" /manifest obj\Debug\WinKeyKiller.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "obj\Debug\WinKeyKiller.unsuccessfulbuild" удаляется.
+         Обращение к "obj\Debug\WinKeyKiller.lastbuildstate".
+     1>Построение проекта "H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\WinKeyDisabler\WinKeyDisabler.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.78

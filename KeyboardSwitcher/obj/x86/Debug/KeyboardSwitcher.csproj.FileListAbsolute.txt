@@ -1,0 +1,16 @@
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\bin\Debug\KeyboardSwitcher.exe
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\bin\Debug\KeyboardSwitcher.pdb
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\obj\x86\Debug\KeyboardSwitcher.Form1.resources
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\obj\x86\Debug\KeyboardSwitcher.Properties.Resources.resources
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\obj\x86\Debug\KeyboardSwitcher.exe
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\obj\x86\Debug\KeyboardSwitcher.pdb
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\bin\Debug\Gma.UserActivityMonitor.dll
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\bin\Debug\Gma.UserActivityMonitor.pdb
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\obj\x86\Debug\KeyboardSwitcher.SettingsForm.resources
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\obj\x86\Debug\KeyboardSwitcher.ExceptionForm.resources
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\obj\x86\Debug\KeyboardSwitcher.KeyBinder.resources
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\bin\Debug\ManagedWinapiNativeHelper.dll
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\KeyboardSwitcher\bin\Debug\ManagedWinapiNativeHelper.pdb

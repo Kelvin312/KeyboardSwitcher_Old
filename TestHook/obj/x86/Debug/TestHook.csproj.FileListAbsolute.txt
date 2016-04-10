@@ -1,0 +1,13 @@
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\TestHook\bin\Debug\TestHook.exe
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\TestHook\bin\Debug\TestHook.pdb
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\TestHook\bin\Debug\WinKeyDisabler.dll
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\TestHook\bin\Debug\WinKeyDisabler.pdb
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\TestHook\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\TestHook\obj\x86\Debug\TestHook.Form1.resources
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\TestHook\obj\x86\Debug\TestHook.Properties.Resources.resources
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\TestHook\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\TestHook\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\TestHook\obj\x86\Debug\TestHook.exe
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\TestHook\obj\x86\Debug\TestHook.pdb
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\TestHook\bin\Debug\WinKeyKiller.dll
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\TestHook\bin\Debug\WinKeyKiller.pdb

@@ -1,0 +1,6 @@
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitor\bin\Debug\Gma.xml
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitor\bin\Debug\Gma.UserActivityMonitor.dll
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitor\bin\Debug\Gma.UserActivityMonitor.pdb
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitor\obj\Debug\ResolveAssemblyReference.cache
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitor\obj\Debug\Gma.UserActivityMonitor.dll
+H:\(!) Бэкап с 3 ТБ\Проекты от студии\KeyboardSwitcher\Gma.UserActivityMonitor\obj\Debug\Gma.UserActivityMonitor.pdb

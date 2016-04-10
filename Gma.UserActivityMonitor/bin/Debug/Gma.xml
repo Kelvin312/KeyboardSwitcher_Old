@@ -1,0 +1,411 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gma.UserActivityMonitor</name>
+    </assembly>
+    <members>
+        <member name="T:Gma.UserActivityMonitor.MouseEventExtArgs">
+            <summary>
+            Provides data for the MouseClickExt and MouseMoveExt events. It also provides a property Handled.
+            Set this property to <b>true</b> to prevent further processing of the event in other applications.
+            </summary>
+        </member>
+        <member name="M:Gma.UserActivityMonitor.MouseEventExtArgs.#ctor(System.Windows.Forms.MouseButtons,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the MouseEventArgs class. 
+            </summary>
+            <param name="buttons">One of the MouseButtons values indicating which mouse button was pressed.</param>
+            <param name="clicks">The number of times a mouse button was pressed.</param>
+            <param name="x">The x-coordinate of a mouse click, in pixels.</param>
+            <param name="y">The y-coordinate of a mouse click, in pixels.</param>
+            <param name="delta">A signed count of the number of detents the wheel has rotated.</param>
+        </member>
+        <member name="M:Gma.UserActivityMonitor.MouseEventExtArgs.#ctor(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Initializes a new instance of the MouseEventArgs class. 
+            </summary>
+            <param name="e">An ordinary <see cref="T:System.Windows.Forms.MouseEventArgs"/> argument to be extended.</param>
+        </member>
+        <member name="P:Gma.UserActivityMonitor.MouseEventExtArgs.Handled">
+            <summary>
+            Получает или задает значение, определяющее, было ли обработано событие.
+            </summary>
+            
+            <returns>
+            Значение true для обхода обработки элемента управления по умолчанию; значение false для передачи события обработчику элементов управления по умолчанию.
+            </returns>
+            <filterpriority>1</filterpriority>
+        </member>
+        <member name="T:Gma.UserActivityMonitor.TaskListEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="lParam"></param>
+            <param name="handled"></param>
+        </member>
+        <member name="T:Gma.UserActivityMonitor.SetFocusEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="hWnd"></param>
+            <param name="hOldWnd"></param>
+            <param name="handled"></param>
+        </member>
+        <member name="T:Gma.UserActivityMonitor.ActivateEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="hWnd"></param>
+            <param name="isMouse"></param>
+            <param name="handled"></param>
+        </member>
+        <member name="T:Gma.UserActivityMonitor.Hook">
+            <summary>
+            A hook is a point in the system message-handling mechanism where an application
+            can install a subroutine to monitor the message traffic in the system and process 
+            certain types of messages before they reach the target window procedure.
+            </summary>
+        </member>
+        <member name="M:Gma.UserActivityMonitor.Hook.#ctor(Gma.UserActivityMonitor.HookType,Gma.UserActivityMonitor.Hook.HookCallback,System.Boolean)">
+            <summary>
+            Creates a new hook and hooks it.
+            </summary>
+        </member>
+        <member name="M:Gma.UserActivityMonitor.Hook.#ctor(Gma.UserActivityMonitor.HookType,System.Boolean)">
+            <summary>
+            Creates a new hook.
+            </summary>
+        </member>
+        <member name="M:Gma.UserActivityMonitor.Hook.StartHook">
+            <summary>
+            Hooks the hook.
+            </summary>
+        </member>
+        <member name="M:Gma.UserActivityMonitor.Hook.Unhook">
+            <summary>
+            Unhooks the hook.
+            </summary>
+        </member>
+        <member name="M:Gma.UserActivityMonitor.Hook.InternalCallback(System.Int32,System.IntPtr,System.IntPtr)">
+            <summary>
+            Override this method if you want to prevent a call
+            to the CallNextHookEx method or if you want to return
+            a different return value. For most hooks this is not needed.
+            </summary>
+        </member>
+        <member name="M:Gma.UserActivityMonitor.Hook.Dispose">
+            <summary>
+            Unhooks the hook if necessary.
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.Hook.Callback">
+            <summary>
+            Occurs when the hook's callback is called.
+            </summary>
+        </member>
+        <member name="P:Gma.UserActivityMonitor.Hook.Type">
+            <summary>
+            The type of the hook.
+            </summary>
+        </member>
+        <member name="P:Gma.UserActivityMonitor.Hook.Hooked">
+            <summary>
+            Whether this hook has been started.
+            </summary>
+        </member>
+        <member name="T:Gma.UserActivityMonitor.Hook.HookCallback">
+            <summary>
+            Represents a method that handles a callback from a hook.
+            </summary>
+        </member>
+        <member name="T:Gma.UserActivityMonitor.HookManager">
+            <summary>
+            This class monitors all mouse activities globally (also outside of the application) 
+            and provides appropriate events.
+            </summary>
+        </member>
+        <member name="M:Gma.UserActivityMonitor.HookManager.OnMouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            This method is designed to monitor mouse clicks in order to fire a double click event if interval between 
+            clicks was short enaugh.
+            </summary>
+            <param name="sender">Is always null</param>
+            <param name="e">Some information about click heppened.</param>
+        </member>
+        <member name="M:Gma.UserActivityMonitor.HookManager.GetDoubleClickTime">
+            <summary>
+            The GetDoubleClickTime function retrieves the current double-click time for the mouse. A double-click is a series of two clicks of the 
+            mouse button, the second occurring within a specified time after the first. The double-click time is the maximum number of 
+            milliseconds that may occur between the first and second click of a double-click. 
+            </summary>
+            <returns>
+            The return value specifies the current double-click time, in milliseconds. 
+            </returns>
+            <remarks>
+            http://msdn.microsoft.com/en-us/library/ms646258(VS.85).aspx
+            </remarks>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.HookManager.ClipboardChanged">
+            <summary>
+            Изменение буфера обмена
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.HookManager.SetFocus">
+            <summary>
+            Окно собирается принять фокус клавиатуры. 
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.HookManager.TaskList">
+            <summary>
+            Активация меню Пуск (Start).
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.HookManager.Activate">
+            <summary>
+            Окно хочет стать активным
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.HookManager.MouseMove">
+            <summary>
+            Occurs when the mouse pointer is moved. 
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.HookManager.MouseClick">
+            <summary>
+            Occurs when a click was performed by the mouse. 
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.HookManager.MouseDown">
+            <summary>
+            Occurs when the mouse a mouse button is pressed. 
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.HookManager.MouseUp">
+            <summary>
+            Occurs when a mouse button is released. 
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.HookManager.MouseWheel">
+            <summary>
+            Occurs when the mouse wheel moves. 
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.HookManager.MouseDoubleClick">
+            <summary>
+            Occurs when a double clicked was performed by the mouse. 
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.HookManager.KeyPress">
+             <summary>
+             Occurs when a key is pressed.
+             </summary>
+             <remarks>
+             Key events occur in the following order: 
+             <list type="number">
+             <item>KeyDown</item>
+             <item>KeyPress</item>
+             <item>KeyUp</item>
+             </list>
+            The KeyPress event is not raised by noncharacter keys; however, the noncharacter keys do raise the KeyDown and KeyUp events. 
+            Use the KeyChar property to sample keystrokes at run time and to consume or modify a subset of common keystrokes. 
+            To handle keyboard events only in your application and not enable other applications to receive keyboard events, 
+             set the KeyPressEventArgs.Handled property in your form's KeyPress event-handling method to <b>true</b>. 
+             </remarks>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.HookManager.KeyUp">
+            <summary>
+            Occurs when a key is released. 
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.HookManager.KeyDown">
+            <summary>
+            Occurs when a key is preseed. 
+            </summary>
+        </member>
+        <member name="T:Gma.UserActivityMonitor.ClipboardNotifier">
+            <summary>
+            Specifies a component that monitors the system clipboard for changes.
+            </summary>
+        </member>
+        <member name="M:Gma.UserActivityMonitor.ClipboardNotifier.Dispose">
+            <summary>
+            Frees resources.
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.ClipboardNotifier.ClipboardChanged">
+            <summary>
+            Occurs when the clipboard contents have changed.
+            </summary>
+        </member>
+        <member name="F:Gma.UserActivityMonitor.MouseHook.Point.X">
+            <summary>
+            Specifies the X-coordinate of the point. 
+            </summary>
+        </member>
+        <member name="F:Gma.UserActivityMonitor.MouseHook.Point.Y">
+            <summary>
+            Specifies the Y-coordinate of the point. 
+            </summary>
+        </member>
+        <member name="T:Gma.UserActivityMonitor.MouseHook.MouseLLHookStruct">
+            <summary>
+            The MSLLHOOKSTRUCT structure contains information about a low-level keyboard input event. 
+            </summary>
+        </member>
+        <member name="F:Gma.UserActivityMonitor.MouseHook.MouseLLHookStruct.Point">
+            <summary>
+            Specifies a Point structure that contains the X- and Y-coordinates of the cursor, in screen coordinates. 
+            </summary>
+        </member>
+        <member name="F:Gma.UserActivityMonitor.MouseHook.MouseLLHookStruct.MouseData">
+             <summary>
+             If the message is WM_MOUSEWHEEL, the high-order word of this member is the wheel delta. 
+             The low-order word is reserved. A positive value indicates that the wheel was rotated forward, 
+             away from the user; a negative value indicates that the wheel was rotated backward, toward the user. 
+             One wheel click is defined as WHEEL_DELTA, which is 120. 
+            If the message is WM_XBUTTONDOWN, WM_XBUTTONUP, WM_XBUTTONDBLCLK, WM_NCXBUTTONDOWN, WM_NCXBUTTONUP,
+             or WM_NCXBUTTONDBLCLK, the high-order word specifies which X button was pressed or released, 
+             and the low-order word is reserved. This value can be one or more of the following values. Otherwise, MouseData is not used. 
+            XBUTTON1
+            The first X button was pressed or released.
+            XBUTTON2
+            The second X button was pressed or released.
+             </summary>
+        </member>
+        <member name="F:Gma.UserActivityMonitor.MouseHook.MouseLLHookStruct.Flags">
+             <summary>
+             Specifies the event-injected flag. An application can use the following value to test the mouse Flags. Value Purpose 
+            LLMHF_INJECTED Test the event-injected flag.  
+            0
+            Specifies whether the event was injected. The value is 1 if the event was injected; otherwise, it is 0.
+            1-15
+            Reserved.
+             </summary>
+        </member>
+        <member name="F:Gma.UserActivityMonitor.MouseHook.MouseLLHookStruct.Time">
+            <summary>
+            Specifies the Time stamp for this message.
+            </summary>
+        </member>
+        <member name="F:Gma.UserActivityMonitor.MouseHook.MouseLLHookStruct.ExtraInfo">
+            <summary>
+            Specifies extra information associated with the message. 
+            </summary>
+        </member>
+        <member name="F:Gma.UserActivityMonitor.KeyboardHook.KeyboardHookStruct.VirtualKeyCode">
+            <summary>
+            Specifies a virtual-key code. The code must be a value in the range 1 to 254. 
+            </summary>
+        </member>
+        <member name="F:Gma.UserActivityMonitor.KeyboardHook.KeyboardHookStruct.ScanCode">
+            <summary>
+            Specifies a hardware scan code for the key. 
+            </summary>
+        </member>
+        <member name="F:Gma.UserActivityMonitor.KeyboardHook.KeyboardHookStruct.Flags">
+            <summary>
+            Specifies the extended-key flag, event-injected flag, context code, and transition-state flag.
+            </summary>
+        </member>
+        <member name="F:Gma.UserActivityMonitor.KeyboardHook.KeyboardHookStruct.Time">
+            <summary>
+            Specifies the Time stamp for this message.
+            </summary>
+        </member>
+        <member name="F:Gma.UserActivityMonitor.KeyboardHook.KeyboardHookStruct.ExtraInfo">
+            <summary>
+            Specifies extra information associated with the message. 
+            </summary>
+        </member>
+        <member name="T:Gma.UserActivityMonitor.HookType">
+            <summary>
+            Hook Types. See the documentation of SetWindowsHookEx for reference.
+            </summary>
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_JOURNALRECORD">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_JOURNALPLAYBACK">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_KEYBOARD">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_GETMESSAGE">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_CALLWNDPROC">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_CBT">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_SYSMSGFILTER">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_MOUSE">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_HARDWARE">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_DEBUG">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_SHELL">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_FOREGROUNDIDLE">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_CALLWNDPROCRET">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_KEYBOARD_LL">
+            
+        </member>
+        <member name="F:Gma.UserActivityMonitor.HookType.WH_MOUSE_LL">
+            
+        </member>
+        <member name="T:Gma.UserActivityMonitor.WndProcEventHandler">
+            <summary>
+            Called by an EventDispatchingNativeWindow when a window message is received
+            </summary>
+            <param name="m">The message to handle.</param>
+            <param name="handled">Whether the event has already been handled. If this value is true, the handler
+            should return immediately. It may set the value to true to indicate that no others 
+            should handle it. If the event is not handled by any handler, it is passed to the
+            default WindowProc.</param>
+        </member>
+        <member name="T:Gma.UserActivityMonitor.EventDispatchingNativeWindow">
+            <summary>
+            A Win32 native window that delegates window messages to handlers. So several
+            components can use the same native window to save "USER resources". This class
+            is useful when writing your own components.
+            </summary>
+        </member>
+        <member name="M:Gma.UserActivityMonitor.EventDispatchingNativeWindow.#ctor">
+            <summary>
+            Create your own event dispatching window.
+            </summary>
+        </member>
+        <member name="M:Gma.UserActivityMonitor.EventDispatchingNativeWindow.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            Parse messages passed to this window and send them to the event handlers.
+            </summary>
+            <param name="m">A System.Windows.Forms.Message that is associated with the 
+            current Windows message.</param>
+        </member>
+        <member name="P:Gma.UserActivityMonitor.EventDispatchingNativeWindow.Instance">
+            <summary>
+            A global instance which can be used by components that do not need
+            their own window.
+            </summary>
+        </member>
+        <member name="E:Gma.UserActivityMonitor.EventDispatchingNativeWindow.EventHandler">
+            <summary>
+            Attach your event handlers here.
+            </summary>
+        </member>
+    </members>
+</doc>
